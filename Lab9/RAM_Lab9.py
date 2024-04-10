@@ -7,7 +7,8 @@ def encode(string):
 
     for i in range(len(inList)):
         inList[i] = int(inList[i])
-        inList[i] = (inList[i] + 3) % 10
+        if inList[i] >= 10:
+            inList[i] = inList[i] - 10
         inList[i] = str(inList[i])
 
     outString = ''.join(inList)
