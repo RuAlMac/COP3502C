@@ -1,6 +1,6 @@
 # Lab 9 Document
 # Encode and __main__ code written by Russell MacGregor
-# Decode code writted by Robert Giasson
+# Decode code written by Robert Giasson
 
 def encode(string):
     inList = list(string)
